@@ -1,0 +1,327 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+/*  desktop version*/
+@media screen and (min-width: 701px) {
+	.mobile-version{
+		display:none;
+	}
+	
+	body{
+		background-color:hsl(275, 100%, 97%);
+		font-family: "Work Sans", sans-serif;
+	}
+	.desktop-version{
+		height:100%;
+		width:100%;
+		display:flex;
+		flex-direction:column;
+
+	}
+
+	.bg-pattern{
+		width:100%;
+		z-index:1;
+	}
+
+.white-box{
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+	/* faq-box */
+	.faq-box{
+		z-index:3;
+		top:200px;
+		position:absolute;
+		height:600px;
+		width:700px;
+		background-color:white;
+		border-radius:8%;
+		box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+-webkit-box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+	}
+
+
+.title-section{
+	height:130px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	padding-left:30px;
+	
+}
+
+.star-icon{
+	height:50px;
+	width:50px;
+	
+}
+
+#faq-text{
+	font-size:60px;
+	font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:hsl(292, 42%, 14%);
+  margin-left:20px;
+}
+
+
+.questions{
+	height:auto;
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+hr{
+	margin-bottom:20px;
+	width:90%;
+	margin-left:40px;
+}
+.question-title{
+	height:auto;
+	display:flex;
+		font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:hsl(292, 42%, 14%);
+  font-size:20px;
+  justify-content:space-between;
+  cursor:pointer;
+  
+}
+
+
+
+.qs-title{
+	font-style:bold;
+	color:hsl(292, 42%, 14%);
+	margin-left:40px;
+}
+
+.qs-title:hover{
+	color: hsl(292, 16%, 49%);
+}
+
+/* buttons */
+
+.buttons{
+margin-right:20px;	
+border:none;
+background-color:white;
+cursor:pointer;
+}
+
+.plus-icn{
+	display:inline;
+}
+
+.show-text .plus-icn{
+	display:none;
+}
+
+.minus-icn{
+	display:none;
+}
+
+.show-text .minus-icn{
+	display:inline;
+}
+
+/* buttons end */
+
+.ans{
+	color:hsl(292, 16%, 49%);
+	font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-left:40px;
+
+}
+
+.answers{
+	display:none;
+}
+
+.show-text .answers{
+	display:inline;
+
+}
+
+
+
+}
+
+
+
+/* moikle version */
+@media screen and (max-width: 700px) {
+	
+	.desktop-version{
+		display:none;
+	}
+	body{
+			
+		background-color:hsl(275, 100%, 97%);
+		font-family: "Work Sans", sans-serif;
+	
+	}
+	
+	.bg-pattern{
+		width:100%;
+	}
+	
+	
+	.white-box{
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+	
+	/*  faq-box*/
+	.faq-box{
+			z-index:3;
+			top:100px;
+		position:absolute;
+		height:700px;
+		width:90%;
+		background-color:white;
+		border-radius:3%;
+		box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+-webkit-box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 1px 22px 3px rgba(0,0,0,0.62);
+	}
+	
+	
+	.title-section{
+	height:130px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	padding-left:30px;
+	
+}
+
+.star-icon{
+	height:40px;
+	width:40px;
+	
+}
+
+#faq-text{
+	font-size:60px;
+	font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:hsl(292, 42%, 14%);
+  margin-left:20px;
+}
+	
+	/* questions section */
+	
+	
+.questions{
+	height:auto;
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+hr{
+	margin-bottom:20px;
+	width:90%;
+	margin-left:40px;
+}
+.question-title{
+	height:auto;
+	display:flex;
+		font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color:hsl(292, 42%, 14%);
+  font-size:20px;
+  justify-content:space-between;
+  cursor:pointer;
+  
+}
+
+
+
+.qs-title{
+	font-style:bold;
+	color:hsl(292, 42%, 14%);
+	margin-left:40px;
+}
+
+.qs-title:hover{
+	color: hsl(292, 16%, 49%);
+}
+
+/* buttons */
+
+.buttons{
+margin-right:20px;	
+border:none;
+background-color:white;
+cursor:pointer;
+}
+
+.plus-icn{
+	display:inline;
+}
+
+.show-text .plus-icn{
+	display:none;
+}
+
+.minus-icn{
+	display:none;
+}
+
+.show-text .minus-icn{
+	display:inline;
+}
+
+/* buttons end */
+
+.ans{
+	color:hsl(292, 16%, 49%);
+	font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-left:40px;
+
+}
+
+.answers{
+	display:none;
+}
+
+.show-text .answers{
+	display:inline;
+
+}
+	
+	
+	
+}
